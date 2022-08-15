@@ -1,0 +1,211 @@
+{
+  "articulo": [
+    {
+      "descripcion": "yogur",
+      "marca": "la serenisima",
+      "precio": "200",
+      "stock": "10",
+      "categoriaId": "lacteos",
+      "id": 4
+    },
+    {
+      "descripcion": "manteca",
+      "marca": "la tonadita",
+      "precio": "170",
+      "stock": "10",
+      "categoriaId": "lacteos",
+      "id": 5
+    },
+    {
+      "descripcion": "jugo",
+      "marca": "baggio",
+      "precio": "200",
+      "stock": "6",
+      "categoriaId": "bebidas",
+      "id": 6
+    },
+    {
+      "descripcion": "gaseosa",
+      "marca": "pepsi",
+      "precio": "225",
+      "stock": "60",
+      "categoriaId": "bebidas",
+      "id": 7
+    },
+    {
+      "descripcion": "gaseosa",
+      "marca": "coca cola 2L",
+      "precio": "250",
+      "stock": "59",
+      "categoriaId": "bebidas",
+      "id": 8
+    },
+    {
+      "descripcion": "gaseosa",
+      "marca": "mirinda",
+      "precio": "200",
+      "stock": "10",
+      "categoriaId": "bebidas",
+      "id": 9
+    },
+    {
+      "descripcion": "jamon",
+      "marca": "paladini",
+      "precio": "1000",
+      "stock": "10",
+      "categoriaId": "fiambres",
+      "id": 11
+    },
+    {
+      "descripcion": "queso tybo",
+      "marca": "sancor",
+      "precio": "1000",
+      "stock": "5",
+      "categoriaId": "fiambres",
+      "id": 12
+    },
+    {
+      "descripcion": "salame",
+      "marca": "paladini",
+      "precio": "1100",
+      "stock": "5",
+      "categoriaId": "fiambres",
+      "id": 13
+    },
+    {
+      "descripcion": "alfajor",
+      "marca": "milka oreo",
+      "precio": "230",
+      "stock": "25",
+      "categoriaId": "golosinas",
+      "id": 14
+    },
+    {
+      "descripcion": "leche",
+      "marca": "la serenisima",
+      "precio": "150",
+      "stock": "10",
+      "categoriaId": "lacteos",
+      "id": 15
+    },
+    {
+      "descripcion": "leche",
+      "marca": "sancor",
+      "precio": "130",
+      "stock": "15",
+      "categoriaId": "lacteos",
+      "id": 16
+    },
+    {
+      "descripcion": "pan lactal",
+      "marca": "bimbo",
+      "precio": "450",
+      "stock": "15",
+      "categoriaId": "panaderia",
+      "id": 17
+    },
+    {
+      "descripcion": "pan de pancho",
+      "marca": "casapan",
+      "precio": "250",
+      "stock": "14",
+      "categoriaId": "panaderia",
+      "id": 18
+    },
+    {
+      "descripcion": "cerveza",
+      "marca": "quilmes 1l",
+      "precio": "250",
+      "stock": "20",
+      "categoriaId": "alcohol",
+      "id": 20
+    },
+    {
+      "descripcion": "jugo",
+      "marca": "ades",
+      "precio": "250",
+      "stock": "12",
+      "categoriaId": "bebidas",
+      "id": 21
+    },
+    {
+      "descripcion": "jugo",
+      "marca": "tang",
+      "precio": "30",
+      "stock": "60",
+      "categoriaId": "bebidas",
+      "id": 22
+    },
+    {
+      "descripcion": "gaseosa",
+      "marca": "coca cola 1,5L",
+      "precio": "200",
+      "stock": "24",
+      "categoriaId": "bebidas",
+      "id": 24
+    },
+    {
+      "descripcion": "papas",
+      "marca": "lays 500gr",
+      "precio": "500",
+      "stock": "10",
+      "categoriaId": "snacks",
+      "id": 25
+    },
+    {
+      "descripcion": "chisitos",
+      "marca": "cheetos 250gr ",
+      "precio": "325",
+      "stock": "10",
+      "categoriaId": "snacks",
+      "id": 26
+    },
+    {
+      "descripcion": "yogur",
+      "marca": "ser 1l",
+      "precio": "230",
+      "stock": "8",
+      "categoriaId": "lacteos",
+      "id": 27
+    },
+    {
+      "descripcion": "cerveza",
+      "marca": "andes 1L",
+      "precio": "100",
+      "stock": "24",
+      "categoriaId": "alcohol",
+      "id": 28
+    }
+  ],
+  "categoria": [
+    {
+      "categoria": "bebidas",
+      "id": 3
+    },
+    {
+      "categoria": "lacteos",
+      "id": 4
+    },
+    {
+      "categoria": "golosinas",
+      "id": 5
+    },
+    {
+      "categoria": "fiambres",
+      "id": 7
+    },
+    {
+      "categoria": "panaderia",
+      "id": 8
+    },
+    {
+      "categoria": "alcohol",
+      "id": 9
+    },
+    {
+      "categoria": "snacks",
+      "id": 10
+    }
+  ],
+  "caja": []
+}

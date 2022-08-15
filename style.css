@@ -1,0 +1,245 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #757575;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 1%;
+}
+
+#inputs {
+    width: 40%;
+}
+#salida{
+    overflow:scroll;
+    height:300px;
+    width:617px;
+}
+#salida table{
+    text-align: center;
+    width:600px;
+    background-color: white;
+    border-collapse: collapse;
+}
+#salida table th{
+    border-color: black;
+    border: 1px solid;
+}
+#salida table td{
+    border-color: black;
+    border: 1px solid;
+}
+
+
+#btnAgregar{
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnAgregar:hover{
+    background-color: #42a5f5 ;
+}
+#btnModificar{
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnModificar:hover{
+    background-color: #00C851;
+}
+#btnMod{ 
+    background-color: white;
+    width: 35px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnMod:hover{
+    background-color: #00C851 ;
+}
+#btnBorrar{ 
+    background-color: white;
+    width: 35px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnBorrar:hover{
+    background-color: #ff4444;
+}
+
+
+#busqueda table{
+    width: 400px;
+    text-align: center;
+}
+/* css para tabla de CAJA*/
+#caja{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    margin-right: 1%;
+}
+#caja table{
+    width:500px;
+    background-color: white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#caja table th{
+    border-color: black;
+    border: 1px solid;
+}
+
+#caja table td{
+    border-color: black;
+    border: 1px solid;
+}
+#btnModCaja{ 
+    background-color: white;
+    width: 35px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnModCaja:hover{
+    background-color: #00C851 ;
+}
+#btnBorrarCaja{ 
+    background-color: white;
+    width: 35px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnBorrarCaja:hover{
+    background-color: #ff4444;
+}
+#btnAgregarMovimiento{
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnAgregarMovimiento:hover{
+    background-color: #42a5f5 ;
+}
+#btnModificarMov{
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnModificarMov:hover{
+    background-color: #00C851;
+}
+ /*CSS DE BUSCAR*/
+
+#btnBuscar{
+    font-size: 15px;
+    border: 0px;
+    border-radius: 4px ;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+  }
+  #btnBuscar:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #42a5f5;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+  }
+  #btnBuscar:hover {
+    color: #fff;
+  }
+  #btnBuscar:hover:after {
+    width: 110%;
+  }
+
+/*CSS PARA CATEGORIAS*/
+
+#btnAgregarCat{
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnAgregarCat:hover{
+    background-color: #42a5f5 ;
+}
+#btnModificarCat{
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnModificarCat:hover{
+    background-color: #00C851;
+}
+#btnModCat{ 
+    background-color: white;
+    width: 35px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnModCat:hover{
+    background-color: #00C851 ;
+}
+#btnborrarCat{ 
+    background-color: white;
+    width: 35px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+#btnborrarCat:hover{
+    background-color: #ff4444;
+}
+
+#btnListarCategorias{
+    font-size: 15px;
+    border: 0px;
+    border-radius: 4px ;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+  }
+  #btnListarCategorias:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #42a5f5;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+  }
+  #btnListarCategorias:hover {
+    color: #fff;
+  }
+  #btnListarCategorias:hover:after {
+    width: 110%;
+  }

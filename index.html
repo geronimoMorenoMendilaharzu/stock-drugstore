@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRUGSTORE</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+
+</head>
+<body>
+    <h1>DRUGSTORE</h1><br>
+    <div id="inputs"> 
+    <input type="text" id="descripcion" placeholder="descripcion">
+    <input type="text" id="marca" placeholder="marca">
+    <input type="number" id="precio" placeholder="precio">
+    <input type="number" id="stock" placeholder="stock">
+    <select id="categorias">
+        <option value="." selected disabled>--Selecione Categoria--</option>
+    </select>
+    
+    <button id="btnAgregar">➕</button><br>
+    <button id="btnModificar">✏️</button><br>
+</div>
+<br>
+
+    <div id="salida">
+        <table>
+            <thead>
+                <tr>
+                    <th>descripcion</th>
+                    <th>marca</th>
+                    <th>precio</th>
+                    <th>stock</th>
+                    <th>categoria</th>
+                </tr>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <!-- BUSCAR PRODUCTOS-->
+    <div id="busqueda">
+        <input type="text" id="buscar" placeholder="buscar articulo">
+        <button id="btnBuscar">buscar</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>descripcion</th>
+                    <th>marca</th>
+                    <th>precio</th>
+                    <th>stock</th>
+                    <th>categoria</th>
+                </tr>
+            <tbody id="tbBuscar">
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <!-- CAJA -->
+    <div id="caja">
+        <input type="text" id="monto" placeholder="monto">
+        <input type="text" id="motivo" placeholder="motivo">
+        <input type="text" id="descripcionMov" placeholder="descripcion">
+        <button id="btnAgregarMovimiento">➕</button><button id="btnModificarMov">✏️</button><br>
+        <br><br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>monto</th>
+                    <th>motivo</th>
+                    <th>descripcion</th>
+                </tr>
+            <tbody id="tbVerCaja">
+            </tbody>
+        </table>
+    </div>
+<br>
+<!--CARGAR CATEGORIAS-->
+    <div id="verCategorias">
+        <input type="text" id="agregarCateg" placeholder="categoria"><button id="btnAgregarCat">➕</button><button id="btnModificarCat">✏️</button><br>
+        <button id="btnListarCategorias">categorias</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>categoria</th>
+                </tr>
+            <tbody id="tbodyCategorias">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
